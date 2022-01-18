@@ -76,6 +76,11 @@ nav{
     flex-direction: row;
     margin: 0;
     margin-top: 9px;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+    margin-right: 2px;
+    
 }
 
 .card--star{
