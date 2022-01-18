@@ -9,9 +9,9 @@ export default function Card() {
             <img className="card--img" src={katie} alt="katie" />
                 <section className="card--details">
                     <img className="card--star" src={star} alt="rating" /> 
-                    <span>5.0</span>
-                    <span>(6) - </span>
-                    <span>USA</span>
+                    <span className="card--rating">5.0</span>
+                    <span className="card--rating--count">(6) - </span>
+                    <span className="card--rating--count">USA</span>
                 </section>
                 <h5 className="card--subtext">Life lessons with Katie Zaferes</h5>
                 <section className="card--price--details">

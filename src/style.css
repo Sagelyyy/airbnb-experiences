@@ -139,6 +139,7 @@ nav{
 .card--price--person {
     margin: 0;
     margin-top: 8px;
+    margin-left: 2px;
     font-family: Poppins;
     font-style: normal;
     font-weight: 300;
