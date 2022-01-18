@@ -53,3 +53,91 @@ nav{
     align-self: flex-start;
     padding-left: 36px;
 }
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin-left: 37px;
+    margin-top: 49px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.card--img{
+    width: 176px;
+    border-radius: 9px;
+}
+
+.card--details{
+    align-items: flex-start;
+    width: 176px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    margin-top: 9px;
+}
+
+.card--star{
+    height: 14px;
+    width: 14px;
+    margin-right: 2px;
+}
+
+.card--rating{
+    margin: 0;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+    margin-right: 2px;
+
+}
+
+.card--rating--count{
+    margin: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #918E9B;
+}
+
+.card--subtext{
+    margin: 0;
+    margin-top: 8px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+}
+
+.card--price--details{
+    display: flex;
+    flex-direction: row;
+}
+
+.card--price{
+    margin: 0;
+    margin-top: 8px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+}
+
+.card--price--person {
+    margin: 0;
+    margin-top: 8px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+}
