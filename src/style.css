@@ -55,6 +55,7 @@ nav{
 }
 
 .experiences {
+    height: 300px;
     display: flex;
     flex-direction: row;
 }
@@ -70,7 +71,8 @@ nav{
 }
 
 .card--img{
-    width: 176px;
+    max-width: 176px;
+    max-height: 235px;
     border-radius: 9px;
 }
 

@@ -15,20 +15,29 @@ function App() {
       <Card 
         img={katie}
         rating="5.0"
-        votes="(6)"
+        votes={(6)}
         country="USA"
         text="Life lessons with Katie Zaferes"
-        price="136"
+        price={136}
       />
       <Card 
         img={wedding}
         rating="5.0"
-        votes="(6)"
+        votes={30}
         country="USA"
-        text="Life lessons with Katie Zaferes"
-        price="136"
+        text="Learn wedding photography"
+        price={125}
+      />
+      <Card 
+        img={bike}
+        rating="4.8"
+        votes={2}
+        country="USA"
+        text="Group mountain biking"
+        price={50}
       />
       </section>
+      
     </div>
   );
 }
