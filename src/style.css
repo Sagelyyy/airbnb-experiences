@@ -55,9 +55,11 @@ nav{
 }
 
 .experiences {
-    height: 300px;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 .card{
